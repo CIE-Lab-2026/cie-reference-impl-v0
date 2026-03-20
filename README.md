@@ -65,6 +65,8 @@ This loop runs continuously.
 
 See ARCHITECTURE.md for layer structure and system design overview.
 
+See CONTROL_LOOP.md for the recursive intelligence control structure.
+
 ---
 
 ## 🧩 Key Components
