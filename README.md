@@ -77,6 +77,9 @@ See CONTROL_LOOP.md for the recursive intelligence control structure.
 * Synchronization — alignment across agents
 * Governance — selection and control
 
+See SYNCHRONIZATION.md for multi-agent coherence and meaning alignment mechanisms.
+See GOVERNANCE.md for stability and boundary regulation principles.
+
 ---
 
 ## 🧠 OiLS (Ontology in the Loop)
