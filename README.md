@@ -63,6 +63,8 @@ This loop runs continuously.
 
 > Intelligence becomes a controlled, evolving system.
 
+See ARCHITECTURE.md for layer structure and system design overview.
+
 ---
 
 ## 🧩 Key Components
