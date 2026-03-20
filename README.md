@@ -45,6 +45,8 @@ CIE manages **meaning**.
 
 CIE is the system that **controls that evolution**.
 
+See CONCEPTS.md for terminology and structure definitions.
+
 ---
 
 ## 🔄 The CIE Control Loop
