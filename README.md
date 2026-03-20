@@ -152,3 +152,11 @@ If you resonate with this direction:
 ## 🧠 CIE = Meaning × Evolution × Control
 
 ---
+
+## Disclaimer
+
+This is an independent personal exploration.
+
+See POLICY.md for disclosure boundaries.
+
+---
