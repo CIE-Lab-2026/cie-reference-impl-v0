@@ -181,3 +181,9 @@ This project is published as an open conceptual infrastructure for meaning evolu
 You are free to share, adapt, and build upon the material for any purpose, including commercial use, provided appropriate attribution is given.
 
 CIE is intended to support the open development of synchronization structures, ontology evolution, and civilization-scale knowledge systems.
+
+This project is developed independently as personal research and is not associated with any employer.
+
+All ideas, models, and documentation in this repository are created outside of working hours and without the use of any employer resources.
+
+This repository represents early-stage conceptual research and may evolve over time.
