@@ -169,3 +169,15 @@ This is an independent personal exploration.
 See POLICY.md for disclosure boundaries.
 
 ---
+
+CIE is designed as a Civilization OS for structuring, synchronizing, and evolving meaning across human–AI systems.
+
+## License
+
+CIE (Collective Intelligence Engineering) is released under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
+
+This project is published as an open conceptual infrastructure for meaning evolution and collective intelligence engineering.
+
+You are free to share, adapt, and build upon the material for any purpose, including commercial use, provided appropriate attribution is given.
+
+CIE is intended to support the open development of synchronization structures, ontology evolution, and civilization-scale knowledge systems.
