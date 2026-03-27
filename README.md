@@ -1,189 +1,444 @@
-# CIE — Collective Intelligence Engineering (v1.1)
+# CIE Reference Implementation v0
 
-## 🔄 Update
+> **Collective Intelligence can be engineered through synchronization.**
 
-CIE has evolved.
+## Purpose
 
-This update introduces:
-- Ontology Evolution Model
-- Ontology Versioning / Merge
-- Ontology Selection / Governance
-- Ontology Risk / Safety
-- OiLS (Ontology in the Loop)
+**CIE (Collective Intelligence Engineering)** is a structural approach for designing how people, models, organizations, and knowledge systems align their interpretations over time.
 
-CIE is now moving from concept to implementation.
+Modern engineering already builds complex systems.
+CIE extends engineering itself so that **synchronization between participants becomes a designable artifact**.
 
----
+This repository presents the **minimum executable structure** required to begin applying synchronization engineering in real environments.
 
-# CIE — Collective Intelligence Engineering
+> CIE is not only something to study.
+> It is something that can be practiced.
 
-## 🌐 What is CIE?
+CIE emerges from the idea of the *civilianization of engineering knowledge*:
+engineering knowledge should not remain confined to specialists, tools, or organizations, but become a shared medium through which collective intelligence can grow.
 
-CIE (Collective Intelligence Engineering) is a new paradigm for engineering intelligence itself.
+Reference Implementation v0 demonstrates that:
 
-It is not a tool.
-It is not a framework.
-
-It is a **Civilization OS**.
-
-CIE enables:
-
-* Continuous evolution of meaning
-* Synchronization across humans and AI
-* Self-governing knowledge systems
+**collective intelligence can be engineered as a runtime process.**
 
 ---
 
-## 🧠 Core Concept
+# Who CIE Is For
 
-Traditional systems manage **data**.
+CIE is designed for anyone working where interpretation, coordination, and shared understanding shape outcomes.
 
-CIE manages **meaning**.
+This includes:
 
-> Meaning is not static.
-> Meaning evolves, conflicts, converges, and stabilizes.
+**Engineers**
 
-CIE is the system that **controls that evolution**.
+who need alignment across models, requirements, and stakeholders.
 
-See CONCEPTS.md for terminology and structure definitions.
+**Researchers**
 
----
+who study knowledge structures, reasoning processes, or collaborative intelligence.
 
-## 🔄 The CIE Control Loop
+**Architects and system designers**
 
-CIE operates as a closed-loop system:
+who manage cross-layer consistency between concepts, implementations, and organizations.
 
-1. Generate — new ideas and interpretations emerge
-2. Evolve — meanings drift and expand
-3. Version — multiple interpretations coexist
-4. Select — useful meanings survive
-5. Control — risks are mitigated
+**Educators and learners**
 
-This loop runs continuously.
+who want engineering knowledge to function as a shared thinking environment rather than a closed specialization.
 
-> Intelligence becomes a controlled, evolving system.
+**Organizations**
 
-See ARCHITECTURE.md for layer structure and system design overview.
+that recognize synchronization—not tooling—as the primary bottleneck of complex development.
 
-See CONTROL_LOOP.md for the recursive intelligence control structure.
+CIE treats synchronization as infrastructure for collective intelligence, making engineering participation more accessible without reducing its rigor.
 
 ---
 
-## 🧩 Key Components
+# What This Repository Shows
 
-* Problem Cell — the smallest unit of knowledge
-* Knowledge Graph — the structure of meaning
-* Ontology Evolution — dynamic meaning formation
-* Synchronization — alignment across agents
-* Governance — selection and control
+This implementation integrates the following five core components:
 
-See SYNCHRONIZATION.md for multi-agent coherence and meaning alignment mechanisms.
-See GOVERNANCE.md for stability and boundary regulation principles.
+1. Problem Cell
+2. Knowledge Graph Schema
+3. Synchronization Runtime Record
+4. Intelligence Orchestrator
+5. Domain Event Model
 
----
+Together they form the smallest structure capable of:
 
-## 🧠 OiLS (Ontology in the Loop)
-
-CIE is not only a theory.
-
-It is implemented through:
-
-> **OiLS — Ontology in the Loop**
-
-OiLS is the runtime system that:
-
-* Executes the ontology control loop
-* Enables real-time meaning evolution
-* Integrates human and AI decision-making
+* capturing meaning
+* aligning interpretations
+* tracking synchronization states
+* coordinating reasoning
+* enabling emergence of collective intelligence
 
 ---
 
-## 🚗 XiLS × OiLS
+# Conceptual Runtime Overview
 
-CIE extends traditional system validation:
+CIE operates as a synchronization loop:
 
-* XiLS → validates behavior
-* OiLS → validates meaning
+```
+Observation
+   ↓
+Problem Cell
+   ↓
+Knowledge Graph Update
+   ↓
+Synchronization Runtime Record
+   ↓
+Intelligence Orchestrator Decision
+   ↓
+Domain Event Emission
+   ↓
+Collective Update
+```
 
-> Behavior without correct meaning is dangerous.
-> Meaning without validation is unstable.
-
-CIE unifies both.
-
----
-
-## 🚀 Why it matters
-
-We are entering an era where:
-
-* AI generates knowledge faster than humans can validate
-* Meaning becomes fragmented across systems
-* Decisions depend on dynamic interpretation
-
-CIE provides:
-
-> A way to **engineer intelligence itself**
+This loop converts **individual cognition into collective intelligence**.
 
 ---
 
-## 🌱 Status
+# Component 1 — Problem Cell
 
-CIE is currently:
+Problem Cells are the atomic units of structured meaning inside CIE.
 
-* Conceptually defined
-* Structurally designed
-* Beginning implementation (OiLS)
+Each Problem Cell represents:
 
----
+* a question
+* a mismatch
+* a design tension
+* a coordination gap
+* an unknown
 
-## 🤝 Contributing
+Example:
 
-CIE is not owned.
+```json
+{
+  "id": "pc_sync_latency",
+  "type": "synchronization_gap",
+  "description": "Mismatch between model intent and stakeholder interpretation",
+  "layer": "organization",
+  "priority": "high",
+  "status": "open"
+}
+```
 
-CIE is evolved.
-
-If you resonate with this direction:
-
-* Fork
-* Extend
-* Challenge
-* Synchronize
-
----
-
-## 💡 Final Thought
-
-> Intelligence is no longer something we use.
-> It is something we must **engineer and govern**.
+Problem Cells allow ambiguity to become **traceable structure**.
 
 ---
 
-## 🧠 CIE = Meaning × Evolution × Control
+# Component 2 — Knowledge Graph Schema
+
+CIE represents intelligence as relationships rather than documents.
+
+Example structure:
+
+```
+Problem Cell
+   ↔ affects ↔ Model
+   ↔ interpreted_by ↔ Stakeholder
+   ↔ resolved_by ↔ Synchronization Action
+```
+
+Example:
+
+```json
+{
+  "node": "pc_sync_latency",
+  "edges": [
+    {"relation": "affects", "target": "model_alignment"},
+    {"relation": "interpreted_by", "target": "system_architect"}
+  ]
+}
+```
+
+Meaning evolves through graph topology updates.
 
 ---
 
-## Disclaimer
+# Component 3 — Synchronization Runtime Record
 
-This is an independent personal exploration.
+Synchronization is observable inside CIE.
 
-See POLICY.md for disclosure boundaries.
+Each interaction produces a runtime trace:
+
+```json
+{
+  "timestamp": "2026-03-01T10:15:00Z",
+  "actors": ["engineer", "model"],
+  "event": "interpretation_alignment",
+  "before_state": "divergent",
+  "after_state": "partially_aligned"
+}
+```
+
+This enables:
+
+* alignment tracking
+* drift detection
+* governance visibility
+* reasoning reproducibility
 
 ---
 
-CIE is designed as a Civilization OS for structuring, synchronizing, and evolving meaning across human–AI systems.
+# Component 4 — Intelligence Orchestrator
 
-## License
+The Intelligence Orchestrator decides how synchronization evolves.
 
-CIE (Collective Intelligence Engineering) is released under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
+Example responsibilities:
 
-This project is published as an open conceptual infrastructure for meaning evolution and collective intelligence engineering.
+* prioritize Problem Cells
+* detect structural conflicts
+* trigger synchronization actions
+* coordinate multi-agent reasoning
 
-You are free to share, adapt, and build upon the material for any purpose, including commercial use, provided appropriate attribution is given.
+Example:
 
-CIE is intended to support the open development of synchronization structures, ontology evolution, and civilization-scale knowledge systems.
+```json
+{
+  "input": "pc_sync_latency",
+  "detected_pattern": "cross-layer misalignment",
+  "action": "initiate semantic clarification session"
+}
+```
 
-This project is developed independently as personal research and is not associated with any employer.
+The orchestrator transforms passive knowledge into **active intelligence flow**.
 
-All ideas, models, and documentation in this repository are created outside of working hours and without the use of any employer resources.
+---
 
-This repository represents early-stage conceptual research and may evolve over time.
+# Component 5 — Domain Event Model
+
+CIE progresses through domain events.
+
+Examples:
+
+```
+ProblemCellCreated
+InterpretationShiftDetected
+SynchronizationAchieved
+OntologyExtended
+CollectiveInsightEmerged
+```
+
+Example:
+
+```json
+{
+  "event": "SynchronizationAchieved",
+  "scope": "architecture_layer",
+  "confidence": 0.82
+}
+```
+
+Events allow intelligence to propagate across participants.
+
+---
+
+# Minimal Execution Flow Example
+
+A typical execution cycle:
+
+```
+Engineer detects misunderstanding
+
+↓
+
+Problem Cell created
+
+↓
+
+Knowledge Graph updated
+
+↓
+
+Synchronization state recorded
+
+↓
+
+Orchestrator selects intervention
+
+↓
+
+Domain Event emitted
+
+↓
+
+Shared understanding increases
+```
+
+This is the smallest reproducible CIE runtime loop.
+
+---
+
+# Why This Matters
+
+Traditional engineering manages:
+
+* requirements
+* models
+* interfaces
+* implementations
+
+CIE introduces a complementary layer:
+
+> engineering synchronization itself
+
+As systems grow more interdisciplinary and organizations become more distributed, the primary bottleneck is no longer computation or modeling capability, but alignment between participants.
+
+CIE provides a minimal structure for making alignment observable, traceable, and improvable.
+
+This enables engineering to evolve from a specialist activity into a shared societal capability.
+
+In this sense, CIE is both:
+
+* an engineering framework
+* and a step toward infrastructure for collective intelligence
+
+---
+
+# Example Use Cases
+
+CIE can support:
+
+* model-based development governance
+* cross-organization architecture alignment
+* research collaboration platforms
+* ontology evolution tracking
+* AI–human reasoning coordination
+
+---
+
+# Implementation Philosophy
+
+CIE Reference Implementation v0 intentionally avoids:
+
+* heavy infrastructure
+* complex APIs
+* platform lock-in
+
+Instead it demonstrates:
+
+> collective intelligence begins with traceable structure
+
+before tooling.
+
+---
+
+# Next Steps (Toward v1)
+
+Future extensions may include:
+
+* ontology compatibility detection
+* synchronization scoring metrics
+* distributed orchestration layers
+* visualization interfaces
+* agent-based execution environments
+
+---
+
+# Status
+
+CIE is currently in:
+
+**Executable Concept Phase**
+
+Structure is stable.
+Runtime expansion is ongoing.
+
+Contributions, interpretations, and extensions are welcome.
+
+---
+
+# Repository Structure (Suggested Layout)
+
+To support experimentation and extension, the following minimal structure can be used:
+
+```
+/problem_cells/
+/knowledge_graph/
+/runtime_records/
+/orchestrator/
+/events/
+/examples/
+README.md
+```
+
+Each directory represents a synchronization layer rather than a software layer.
+
+This enables contributors to extend CIE structurally instead of only modifying code.
+
+---
+
+# Minimal JSON Starter Set (Example Runtime Artifacts)
+
+These example artifacts demonstrate how CIE becomes executable immediately.
+
+Problem Cell example:
+
+```json
+{
+  "id": "pc_meaning_misalignment",
+  "type": "interpretation_gap",
+  "layer": "architecture",
+  "status": "open"
+}
+```
+
+Synchronization Runtime Record example:
+
+```json
+{
+  "event": "interpretation_alignment",
+  "actors": ["engineer", "reviewer"],
+  "before_state": "divergent",
+  "after_state": "aligned"
+}
+```
+
+Domain Event example:
+
+```json
+{
+  "event": "CollectiveInsightEmerged",
+  "scope": "model_definition",
+  "confidence": 0.76
+}
+```
+
+Together, these form a minimal executable synchronization trace.
+
+---
+
+# Ontology Compatibility (Planned Extension)
+
+Future versions of CIE may support topology-level ontology compatibility detection:
+
+Example concept:
+
+```
+check_ontology_compatibility(kg_a, kg_b)
+```
+
+Instead of forcing semantic normalization, CIE describes structural differences between knowledge systems.
+
+This enables:
+
+* cross-organization alignment
+* multi-model coexistence
+* interpretation drift tracking
+* ontology evolution mapping
+
+Ontology compatibility is a key step toward distributed collective intelligence runtime environments.
+
+---
+
+# Closing Statement
+
+CIE proposes a shift:
+
+From knowledge engineering
+
+To
+
+**synchronization engineering**.
+
+Reference Implementation v0 is the first minimal proof that this shift can be built.
