@@ -347,6 +347,25 @@ Runtime expansion is ongoing.
 Contributions, interpretations, and extensions are welcome.
 
 ---
+## Reference Implementation Architecture
+
+This repository now includes the first reference-level structural architecture
+of Collective Intelligence Engineering (CIE).
+
+The purpose of this architecture is not to define a fixed system design,
+but to provide a synchronization-oriented implementation scaffold
+connecting:
+
+- Problem Cells
+- Knowledge Graph
+- Synchronization Manager
+- Intelligence Orchestrator
+- Runtime Records
+
+This marks the transition of CIE from conceptual modeling
+to executable structural architecture.
+
+---
 
 # Repository Structure (Suggested Layout)
 
