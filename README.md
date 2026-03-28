@@ -84,6 +84,8 @@ Problem Cell
    ↓
 Knowledge Graph Update
    ↓
+Ontology Gap Observation 
+   ↓
 Synchronization Runtime Record
    ↓
 Intelligence Orchestrator Decision
