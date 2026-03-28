@@ -8,6 +8,39 @@ import time
 import copy
 
 
+class OntologyGapReport:
+    """
+    Represents structural differences between two knowledge graphs.
+
+    This report captures topology-level mismatches instead of relying
+    only on node-name equivalence.
+    """
+
+    def __init__(self):
+        self.node_overlap = None
+        self.relation_pattern_similarity = None
+        self.topology_gap_summary = None
+        self.synchronization_hint = None
+
+
+def describe_ontology_gap(kg_a, kg_b):
+    """
+    Describe structural differences between two knowledge graphs.
+
+    The goal is not to enforce alignment, but to make phase differences
+    observable before synchronization policies are applied.
+    """
+
+    # Future extension point for structural synchronization analysis
+
+    report = OntologyGapReport()
+
+    report.topology_gap_summary = "Not implemented yet"
+    report.synchronization_hint = "Describe before aligning"
+
+    return report
+
+
 def evaluate_rules(cell, now_unix):
     target = cell["desired_state"]["target_value"]
     tolerance = cell["desired_state"]["tolerance"]
@@ -71,6 +104,15 @@ def run(cell):
     now = int(time.time())
 
     print("=== CIE LOOP START ===")
+
+    kg_a = {"nodes": [], "edges": []}
+    kg_b = {"nodes": [], "edges": []}
+
+    gap_report = describe_ontology_gap(kg_a, kg_b)
+
+    print("[ONTOLOGY GAP]")
+    print(f"Summary: {gap_report.topology_gap_summary}")
+    print(f"Hint: {gap_report.synchronization_hint}")
 
     before = evaluate_rules(cell, now)
 
