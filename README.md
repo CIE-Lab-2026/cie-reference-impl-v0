@@ -250,6 +250,10 @@ Knowledge Graph updated
 
 ↓
 
+Ontology Gap Observation
+
+↓
+
 Synchronization state recorded
 
 ↓
