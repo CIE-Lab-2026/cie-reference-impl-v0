@@ -3,6 +3,8 @@
 This document describes the structural architecture of
 Collective Intelligence Engineering (CIE).
 
+This document is part of the CIE Reference Implementation Architecture layer (v0).
+
 CIE treats collective intelligence as an evolving system
 organized across multiple conceptual layers.
 
