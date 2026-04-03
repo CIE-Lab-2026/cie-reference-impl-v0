@@ -73,6 +73,22 @@ Together they form the smallest structure capable of:
 
 ---
 
+## Concept Layer
+
+CIE includes a concept layer that defines interpretive lenses for observing
+synchronization, structure emergence, and collective intelligence formation.
+
+### Concepts
+
+- [Dialogue Radar v0](docs/concepts/dialogue_radar.md)
+
+Dialogue Radar introduces an observability frame that treats dialogue not merely
+as transcript data, but as a structural surface where perspective shifts,
+synchronization depth, role fluidity, ontology expansion, and collective alignment
+can be observed.
+
+---
+
 # Conceptual Runtime Overview
 
 CIE operates as a synchronization loop:
