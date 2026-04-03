@@ -3,6 +3,17 @@
 This document provides an index of structural models defined in the
 Collective Intelligence Engineering (CIE) framework.
 
+## Concept Layer
+
+### Dialogue Radar v0
+
+Defines an observability framework for treating dialogue as a structural surface
+where synchronization depth, perspective shifts, ontology expansion, role fluidity,
+and collective alignment can be observed.
+
+Location:
+docs/concepts/dialogue_radar.md
+
 ## Core Models
 
 - CIE Core Document v1
