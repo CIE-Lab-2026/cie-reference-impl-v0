@@ -46,40 +46,40 @@ docs/concepts/dialogue_radar.md
 
 - Synchronization Runtime Record Schema v1
 
-Defines the persistent runtime trace structure for storing synchronization
-episodes across lifecycle evolution.
+  Defines the persistent runtime trace structure for storing synchronization
+  episodes across lifecycle evolution.
 
-Location:
-docs/models/synchronization/synchronization_runtime_record_schema_v1.md
-
-
-Episode → Lifecycle Transition Mapping Model v1
-
-Defines how synchronization episodes contribute to lifecycle transitions of
-Problem Cells through cumulative transition contribution logic.
-
-Location:
-docs/models/core/episode_lifecycle_transition_mapping_model_v1.md
+  Location:
+  docs/models/synchronization/synchronization_runtime_record_schema_v1.md
 
 
-Problem Cell Lifecycle Model v1
+- Episode → Lifecycle Transition Mapping Model v1
 
-Defines the temporal evolution of Problem Cells from emergence through
-interpretation, structuring, synchronization, operationalization,
-transformation, and stabilization.
+  Defines how synchronization episodes contribute to lifecycle transitions of
+  Problem Cells through cumulative transition contribution logic.
 
-Location:
-docs/models/core/problem_cell_lifecycle_model_v1.md
+  Location:
+  docs/models/core/episode_lifecycle_transition_mapping_model_v1.md
 
 
-Problem Cell Lifecycle Metrics Model v1
+- Problem Cell Lifecycle Model v1
 
-Defines measurable indicators for estimating lifecycle stage,
-transition readiness, coordination stability, and alignment maturity
-across synchronization processes.
+  Defines the temporal evolution of Problem Cells from emergence through
+  interpretation, structuring, synchronization, operationalization,
+  transformation, and stabilization.
 
-Location:
-docs/models/core/problem_cell_lifecycle_metrics_model_v1.md
+  Location:
+  docs/models/core/problem_cell_lifecycle_model_v1.md
+
+
+- Problem Cell Lifecycle Metrics Model v1
+
+  Defines measurable indicators for estimating lifecycle stage,
+  transition readiness, coordination stability, and alignment maturity
+  across synchronization processes.
+
+  Location:
+  docs/models/core/problem_cell_lifecycle_metrics_model_v1.md
 
 ## Intelligence Orchestration Models
 
