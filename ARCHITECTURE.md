@@ -32,6 +32,8 @@ Persistence Layer
 Evolution Layer
 Governance Layer
 
+Each layer transforms dialogue into cumulative intelligence.
+
 ## CIE Collective Intelligence Runtime Layer
 
 The CIE Collective Intelligence Runtime Layer defines how synchronization
@@ -99,8 +101,6 @@ coordination stability, and alignment maturity across synchronization processes.
 
 Location:
 docs/models/core/problem_cell_lifecycle_metrics_model_v1.md
-
-Each layer transforms dialogue into cumulative intelligence.
 
 ---
 
