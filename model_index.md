@@ -23,7 +23,13 @@ docs/concepts/dialogue_radar.md
 
 - Multi-Layer Synchronization Rules v1
 - Synchronization Manager Component Model v1
+- Synchronization Phase Model v1
 
+  Defines the temporal evolution stages of synchronization processes
+  from exploration through propagation.
+
+  Location:
+  docs/models/synchronization/synchronization_phase_model_v1.md
 
 ## Runtime Models
 
