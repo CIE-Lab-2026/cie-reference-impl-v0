@@ -110,3 +110,13 @@ Future versions may introduce:
 - visualization schemas
 - synchronization phase detection
 - multi-agent dialogue mapping
+
+
+## Relation to Synchronization Manager
+
+Dialogue Radar provides observability for synchronization processes
+managed by the CIE Synchronization Manager.
+
+While the Synchronization Manager coordinates alignment across layers,
+Dialogue Radar enables detection and tracking of synchronization depth,
+role transitions, ontology expansion, and structure emergence through dialogue.
